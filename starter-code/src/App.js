@@ -2,10 +2,18 @@ import React, {
     Component
 } from "react";
 
+import Navbar from './components/NavBar';
+import BodyMain from './components/BodyMain';
+import FooterPage from './components/FooterPage';
+import '../public/stylesheets/style.css';
+
 class App extends Component {
     render() {
         return ( < div className = "App" >
-            <h1> Hello Ironhackers! </h1>  </div>
+                <Navbar/>
+                <BodyMain/>
+                <FooterPage/>
+            </div>
         );
     }
 }

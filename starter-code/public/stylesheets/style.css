@@ -1,0 +1,13 @@
+.App{
+    margin: 30px;
+}
+
+
+.navbar{
+    background-color: #1f2332;
+    height: 50px;
+}
+
+.navbar-brand{
+    display: inline;
+}
