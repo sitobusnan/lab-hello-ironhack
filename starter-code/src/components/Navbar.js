@@ -7,7 +7,7 @@ class NavBar extends Component{
         return (
             <nav className="navbar">
               <div className="navbar-brand">
-                <img src = "/images/ironhack-logo.svg" width = "112" height = "28"/>
+                <img className="logo" src = "/images/ironhack-logo.svg" width = "auto" height = "50"/>
                 <img src="/images/menu-top.svg"/>
               </div>
             </nav>

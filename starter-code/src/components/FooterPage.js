@@ -30,8 +30,8 @@ class FooterPage extends Component{
 
     render(){
         
-        let footerElements = this.columns.map((element) =>  {
-            return <FooterElement img={element.img} title={element.title} maintext={element.maintext} />;
+        let footerElements = this.columns.map((element, index) =>  {
+            return <FooterElement key={index} img={element.img} title={element.title} maintext={element.maintext} />;
         })
         return(
         
